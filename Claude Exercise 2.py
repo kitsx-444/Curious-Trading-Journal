@@ -57,7 +57,7 @@ for x in range(trade_amount):
 	journal_list.append(trade)
 
 for index, trade in enumerate(journal_list, 1):
-	print(index, trade)
+	print(f'{index}.) Pair: {trade['Pair']} | Entry: {trade['Entry']} | Exit: {trade['Exit']} | Direction: {trade['Direction']} | Result {trade['Result']}')
 
 win_rate = win / trade_amount * 100
 
