@@ -1,0 +1,1 @@
+# Curious-Trading-Journal
