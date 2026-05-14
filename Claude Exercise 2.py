@@ -1,13 +1,3 @@
-#this base works now - to enumerate (dont concern you here Claude hehe, these are my notes.)
-# learned and used dictionaries
-# learned more on nested conditionals and indentations.
-# dictionary and append is in loop which helps make each trade its own list instead of compiled or the last only
-# journaled.
-# enumerate:
-# The 1 at the end just tells Python to start counting from 1 instead of 0.
-# That number on the left — 1, 2, 3 — that's index (it can be named anything).
-# The current issue is that the ran program enumerates repetitively and not each individual trade.
-
 trade_amount = int(input('How many trades do you want to log: '))
 
 journal_list = []
